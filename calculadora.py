@@ -19,19 +19,19 @@ while eleccion != 6:
 
     if eleccion == 1:
         print(" ")
-        print(f"Resultado: {number1} + {number2} = {number1+number2})
+        print(f"Resultado: {number1} + {number2} = {number1+number2}")
           
     if eleccion == 2:
         print(" ")
-        print(f"Resultado: {number1} - {number2} = {number1-number2})
+        print(f"Resultado: {number1} - {number2} = {number1-number2}")
     
     if eleccion == 3:
         print(" ")
-        print(f"Resultado: {number1} x {number2} = {number1*number2})
+        print(f"Resultado: {number1} x {number2} = {number1*number2}")
 
     if eleccion == 4:
         print(" ")
-        print(f"Resultado: {number1} / {number2} = {number1/number2})
+        print(f"Resultado: {number1} / {number2} = {number1/number2}")
 
     if eleccion == 5:
         number1=int(input("Ingresa un numero: "))
