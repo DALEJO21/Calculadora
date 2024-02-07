@@ -1,0 +1,15 @@
+NUM_MIN=20
+NUM_MAX=60
+NUM=44
+num_user=int(input(f"Adivina el número entre {NUM_MIN} y {NUM_MAX}: "))
+
+while num_user != NUM:
+    while num_user < NUM:
+        print("Un poco mas para arriba")
+        num_user=int(input("Digita otro número: "))
+
+    while num_user > NUM:
+        print("Un poco mas para abajo")
+        num_user=int(input("Digita otro número: "))
+
+print("En hora buena!!!!")
